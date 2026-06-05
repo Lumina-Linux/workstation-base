@@ -1,0 +1,11 @@
+[AC][Suspend]
+AutoSuspendIdle=0
+
+[AC][Display]
+idleTimeout=0
+
+[Battery][Suspend]
+AutoSuspendIdle=0
+
+[Battery][Display]
+idleTimeout=0

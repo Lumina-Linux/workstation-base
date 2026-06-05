@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Instalar Lumina Linux
+Name[en]=Install Lumina Linux
+GenericName=Live Installer
+Comment=Instalar el sistema en el disco duro
+Comment[en]=Install in the hard drive
+Exec=sudo -E /usr/bin/lumina-calamares
+Icon=/usr/share/pixmaps/lumina-logo.svg
+Terminal=false
+StartupNotify=true
+Categories=System;

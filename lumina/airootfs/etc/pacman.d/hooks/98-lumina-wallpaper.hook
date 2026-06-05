@@ -1,0 +1,10 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Type = Package
+Target = breeze
+
+[Action]
+Description = Reemplazando el wallpaper generico con el de Lumina...
+When = PostTransaction
+Exec = /bin/sh -c 'cp -f /usr/share/lumina/lumina-wallpaper.png /usr/share/wallpapers/Next/contents/images/1920x1080.png && cp -f /usr/share/lumina/lumina-wallpaper.png /usr/share/wallpapers/Next/contents/images/5120x2880.png'

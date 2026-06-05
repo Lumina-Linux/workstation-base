@@ -1,0 +1,7 @@
+[Containments][1]
+activityId=
+plugin=org.kde.plasma.desktop
+
+[Containments][1][Wallpaper][org.kde.image][General]
+Image=/usr/share/backgrounds/lumina/wallpaper.png
+PreviewImage=/usr/share/backgrounds/lumina/wallpaper.png

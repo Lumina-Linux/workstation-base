@@ -1,0 +1,12 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Type = Package
+# El tema Breeze de SDDM en Arch viene dentro de este paquete
+Target = plasma-workspace
+
+[Action]
+Description = Inyectando el fondo de Lumina en SDDM Breeze...
+When = PostTransaction
+# Buscamos la configuración del fondo y la reemplazamos con nuestra ruta segura
+Exec = /usr/bin/sed -i 's|^background=.*|background=/usr/share/lumina/lumina-wallpaper.png|' /usr/share/sddm/themes/breeze/theme.conf

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Lumina Wallpaper Setter
+Exec=plasma-apply-wallpaperimage /usr/share/backgrounds/lumina/wallpaper.png
+NoDisplay=true
+X-KDE-autostart-phase=1
