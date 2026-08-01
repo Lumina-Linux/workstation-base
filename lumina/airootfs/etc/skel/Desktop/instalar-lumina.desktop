@@ -1,11 +1,21 @@
 [Desktop Entry]
 Type=Application
 Version=1.0
-Name=Instalar Lumina Linux
-Name[en]=Install Lumina Linux
+Name=Install Lumina Linux
+Name[es_AR]=Instalar Lumina Linux
+Name[es_CL]=Instalar Lumina Linux
+Name[es_ES]=Instalar Lumina Linux
+Name[es_MX]=Instalar Lumina Linux
+Name[pt_BR]=Instalar o Lumina Linux
+Name[pt_PT]=Instalar o Lumina Linux
 GenericName=Live Installer
-Comment=Instalar el sistema en el disco duro
-Comment[en]=Install in the hard drive
+Comment=Install Lumina in your local drive
+Comment[es_AR]=Instalar Lumina Linux en tu disco local
+Comment[es_CL]=Instalar Lumina Linux en tu disco local
+Comment[es_ES]=Instalar Lumina Linux en tu disco local
+Comment[es_MX]=Instalar Lumina Linux en tu disco local
+Comment[pt_BR]=Instalar o Lumina Linux no seu disco local
+Comment[pt_PT]=Instalar o Lumina Linux no seu disco local
 Exec=sudo -E /usr/bin/lumina-calamares
 Icon=/usr/share/pixmaps/lumina-logo.svg
 Terminal=false
